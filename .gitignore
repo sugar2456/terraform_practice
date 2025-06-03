@@ -1,0 +1,39 @@
+# Terraformの状態ファイル
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# ログファイル
+crash.log
+crash.*.log
+
+# ローカル設定ファイル
+.terraform/
+terraform.rc
+.terraformrc
+
+# 機密情報を含む可能性のある変数ファイル
+*.tfvars
+*.tfvars.json
+
+# CLIの設定ファイル
+.terraformrc
+terraform.rc
+
+# オーバーライドファイル
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# 機密情報を含む可能性のあるファイル
+.env
+*.pem
+*.key
+
+# エディタの一時ファイル
+.vscode/
+.idea/
+*.swp
+*.swo
+*~

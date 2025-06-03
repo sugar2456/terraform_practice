@@ -10,15 +10,15 @@ https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
 
 # 初期化
 
+rfファイルがあるファイル階層に移動
+
 ```
-cd src
 terraform init
 ```
 
 # 実行
 
 ```
-cd src
 terraform apply
 ```
 
@@ -26,4 +26,18 @@ terraform apply
 
 ```
 terraform destroy
+```
+
+# 検証
+
+ファイルを変更した際、以下のコマンドで差分を検出できる
+
+```
+terraform fmt
+```
+
+tfファイルの構文チェック
+
+```
+terraform validate
 ```

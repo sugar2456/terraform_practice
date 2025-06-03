@@ -8,6 +8,13 @@ AWSインフラをterraformを使って構築する
 
 https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
 
+# 初期化
+
+```
+cd src
+terraform init
+```
+
 # 実行
 
 ```
